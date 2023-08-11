@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A510C9722A82BFB70058AB5F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A510C9712A82BFB70058AB5F /* ScrumsView.swift */; };
+		A558CAF62A82884900964040 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CAF52A82884900964040 /* Theme.swift */; };
+		A558CAF82A82946F00964040 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CAF72A82946F00964040 /* DailyScrum.swift */; };
+		A558CAFA2A82961500964040 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CAF92A82961500964040 /* CardView.swift */; };
+		A558CAFC2A829A3E00964040 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A558CAFB2A829A3E00964040 /* TrailingIconLabelStyle.swift */; };
+		A55953092A86766F00D0DB5B /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55953082A86766F00D0DB5B /* DetailEditView.swift */; };
+		A5A4ED032A864F4E000FEE88 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4ED022A864F4E000FEE88 /* DetailView.swift */; };
 		A5F5DEB42A814ED700128436 /* SwiftUIOneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5DEB32A814ED700128436 /* SwiftUIOneApp.swift */; };
-		A5F5DEB62A814ED700128436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5DEB52A814ED700128436 /* ContentView.swift */; };
+		A5F5DEB62A814ED700128436 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5DEB52A814ED700128436 /* MeetingView.swift */; };
 		A5F5DEB82A814ED900128436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5DEB72A814ED900128436 /* Assets.xcassets */; };
 		A5F5DEBC2A814ED900128436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5DEBB2A814ED900128436 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A510C9712A82BFB70058AB5F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		A558CAF52A82884900964040 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A558CAF72A82946F00964040 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		A558CAF92A82961500964040 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A558CAFB2A829A3E00964040 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		A55953082A86766F00D0DB5B /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		A5A4ED022A864F4E000FEE88 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A5F5DEB02A814ED700128436 /* SwiftUIOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F5DEB32A814ED700128436 /* SwiftUIOneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIOneApp.swift; sourceTree = "<group>"; };
-		A5F5DEB52A814ED700128436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5F5DEB52A814ED700128436 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		A5F5DEB72A814ED900128436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F5DEB92A814ED900128436 /* SwiftUIOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIOne.entitlements; sourceTree = "<group>"; };
 		A5F5DEBB2A814ED900128436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -33,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A558CAF42A82882A00964040 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A558CAF52A82884900964040 /* Theme.swift */,
+				A558CAF72A82946F00964040 /* DailyScrum.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A5F5DEA72A814ED700128436 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +75,14 @@
 		A5F5DEB22A814ED700128436 /* SwiftUIOne */ = {
 			isa = PBXGroup;
 			children = (
+				A558CAF42A82882A00964040 /* Model */,
 				A5F5DEB32A814ED700128436 /* SwiftUIOneApp.swift */,
-				A5F5DEB52A814ED700128436 /* ContentView.swift */,
+				A5F5DEB52A814ED700128436 /* MeetingView.swift */,
+				A510C9712A82BFB70058AB5F /* ScrumsView.swift */,
+				A558CAF92A82961500964040 /* CardView.swift */,
+				A5A4ED022A864F4E000FEE88 /* DetailView.swift */,
+				A55953082A86766F00D0DB5B /* DetailEditView.swift */,
+				A558CAFB2A829A3E00964040 /* TrailingIconLabelStyle.swift */,
 				A5F5DEB72A814ED900128436 /* Assets.xcassets */,
 				A5F5DEB92A814ED900128436 /* SwiftUIOne.entitlements */,
 				A5F5DEBA2A814ED900128436 /* Preview Content */,
@@ -139,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F5DEB62A814ED700128436 /* ContentView.swift in Sources */,
+				A558CAF82A82946F00964040 /* DailyScrum.swift in Sources */,
+				A5A4ED032A864F4E000FEE88 /* DetailView.swift in Sources */,
+				A55953092A86766F00D0DB5B /* DetailEditView.swift in Sources */,
+				A558CAFC2A829A3E00964040 /* TrailingIconLabelStyle.swift in Sources */,
+				A558CAF62A82884900964040 /* Theme.swift in Sources */,
+				A510C9722A82BFB70058AB5F /* ScrumsView.swift in Sources */,
+				A5F5DEB62A814ED700128436 /* MeetingView.swift in Sources */,
 				A5F5DEB42A814ED700128436 /* SwiftUIOneApp.swift in Sources */,
+				A558CAFA2A82961500964040 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +320,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
@@ -322,7 +358,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.4;
