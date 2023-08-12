@@ -18,6 +18,8 @@
 		A5F5DEB62A814ED700128436 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F5DEB52A814ED700128436 /* MeetingView.swift */; };
 		A5F5DEB82A814ED900128436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5DEB72A814ED900128436 /* Assets.xcassets */; };
 		A5F5DEBC2A814ED900128436 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F5DEBB2A814ED900128436 /* Preview Assets.xcassets */; };
+		A5F8D48B2A87FB3E0038D149 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8D48A2A87FB3E0038D149 /* ThemeView.swift */; };
+		A5F8D48D2A87FCE80038D149 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8D48C2A87FCE80038D149 /* ThemePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		A5F5DEB72A814ED900128436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F5DEB92A814ED900128436 /* SwiftUIOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIOne.entitlements; sourceTree = "<group>"; };
 		A5F5DEBB2A814ED900128436 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A5F8D48A2A87FB3E0038D149 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		A5F8D48C2A87FCE80038D149 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				A558CAF92A82961500964040 /* CardView.swift */,
 				A5A4ED022A864F4E000FEE88 /* DetailView.swift */,
 				A55953082A86766F00D0DB5B /* DetailEditView.swift */,
+				A5F8D48A2A87FB3E0038D149 /* ThemeView.swift */,
+				A5F8D48C2A87FCE80038D149 /* ThemePickerView.swift */,
 				A558CAFB2A829A3E00964040 /* TrailingIconLabelStyle.swift */,
 				A5F5DEB72A814ED900128436 /* Assets.xcassets */,
 				A5F5DEB92A814ED900128436 /* SwiftUIOne.entitlements */,
@@ -173,9 +179,11 @@
 				A55953092A86766F00D0DB5B /* DetailEditView.swift in Sources */,
 				A558CAFC2A829A3E00964040 /* TrailingIconLabelStyle.swift in Sources */,
 				A558CAF62A82884900964040 /* Theme.swift in Sources */,
+				A5F8D48D2A87FCE80038D149 /* ThemePickerView.swift in Sources */,
 				A510C9722A82BFB70058AB5F /* ScrumsView.swift in Sources */,
 				A5F5DEB62A814ED700128436 /* MeetingView.swift in Sources */,
 				A5F5DEB42A814ED700128436 /* SwiftUIOneApp.swift in Sources */,
+				A5F8D48B2A87FB3E0038D149 /* ThemeView.swift in Sources */,
 				A558CAFA2A82961500964040 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct SwiftUIOneApp: App {
+    @State private var scrums = DailyScrum.sampleData
+    
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: DailyScrum.sampleData)
+            ScrumsView(scrums: $scrums)
         }
     }
 }
+
+
+//https://developer.apple.com/tutorials/app-dev-training/making-classes-observable
