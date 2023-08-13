@@ -32,5 +32,5 @@ struct ScrumsView: View {
 #Preview {
     ScrumsView(scrums: .constant(DailyScrum.sampleData))
 }
-
+//https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle
 
